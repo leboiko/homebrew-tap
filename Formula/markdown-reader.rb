@@ -7,28 +7,28 @@
 class MarkdownReader < Formula
   desc "Terminal-based markdown viewer with mermaid rendering, syntax highlighting, and live reload"
   homepage "https://github.com/leboiko/markdown-reader"
-  version "1.33.0"
+  version "1.33.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.0/markdown-reader-1.33.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9424fca3fe59029cbc3ad80e92a5210aa6c87455a22be38f954a1e861bcc0724"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.1/markdown-reader-1.33.1-aarch64-apple-darwin.tar.gz"
+      sha256 "86b32c54aa5d21849711bbc8c0f9b64a85dd4420d8b628de5e85c5592ca01b50"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.0/markdown-reader-1.33.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c20a0cdd2b025a4130e643916fa5004caaacac0380924703eb4b01cdbfb65e75"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.1/markdown-reader-1.33.1-x86_64-apple-darwin.tar.gz"
+      sha256 "abe89e1d675cbc4b5690194b555ced6e5093359e61f8f4728ee65934304be431"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.0/markdown-reader-1.33.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "25a8321bb4d8208f78d442e429c23517fd13fe7e83ffcfa9f1135c7c4269429f"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.1/markdown-reader-1.33.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "08d6bf6b00e9361d277abcba631bbb2a6857966e723071ae496d013ea0d89b65"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.0/markdown-reader-1.33.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e92a2d97af1dc09f8a8ba297ec683f7ebc8d94436730af6e8f0f97f645782b37"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.33.1/markdown-reader-1.33.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b4232d9fe8a5cde3539e44d946e000f6e2246258107be49d13b995b84f620cfa"
     end
   end
 
