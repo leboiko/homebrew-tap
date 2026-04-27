@@ -7,28 +7,28 @@
 class MarkdownReader < Formula
   desc "Terminal-based markdown viewer with mermaid rendering, syntax highlighting, and live reload"
   homepage "https://github.com/leboiko/markdown-reader"
-  version "1.34.9"
+  version "1.34.10"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.9/markdown-reader-1.34.9-aarch64-apple-darwin.tar.gz"
-      sha256 "3c2d3906ce93566ea09f1227bdb930030ad23217ecc87ccda44d53d7a2176afe"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.10/markdown-reader-1.34.10-aarch64-apple-darwin.tar.gz"
+      sha256 "2122313b6e0ed4fc8abf9c20eedac1200a8f7169f9a235cd6c1ae9c5322177d9"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.9/markdown-reader-1.34.9-x86_64-apple-darwin.tar.gz"
-      sha256 "683cb886be6e47f8032cac8786d3b26bb8e6b3f04c36a582647a9184253cbb93"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.10/markdown-reader-1.34.10-x86_64-apple-darwin.tar.gz"
+      sha256 "47b18d11584cb58c90671830dc1449017dcc4cdc63c45e6dc9afee8835431176"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.9/markdown-reader-1.34.9-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "117ae9dc235f98a183fc1cae4553723bb78d38ed50ce5fbb141d6252bd0a1806"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.10/markdown-reader-1.34.10-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "93bb683fff44ee2345bae5dda38185edb0327a24d3ef415d8eb3f1eb47073254"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.9/markdown-reader-1.34.9-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a300ca101bd4a02f14fc4e0aa51926ef3b41d5daf3afd204d811c6a3425b7689"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.10/markdown-reader-1.34.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "62442eae6ec57f2cbed2cb9ac7c31b9b9e83312eb6d35dab49cbcba5d63c9fb1"
     end
   end
 
