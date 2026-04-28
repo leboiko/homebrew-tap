@@ -13,22 +13,22 @@ class MarkdownReader < Formula
   on_macos do
     on_arm do
       url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.18/markdown-reader-1.34.18-aarch64-apple-darwin.tar.gz"
-      sha256 "4cffbb8570e5bab4878c3c885fa7b07a619e354997ac00ace510fb2df39712f2"
+      sha256 "5859860f7867f1c4cb1ab41a101fd35e0069a7214102a6038629aa1a35666f50"
     end
     on_intel do
       url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.18/markdown-reader-1.34.18-x86_64-apple-darwin.tar.gz"
-      sha256 "5a0ae7ca13e2d4a043c8a0fe2411537d1ba85f226b391be776af78d4be3e35c0"
+      sha256 "e8b578583b3a9c0cbf698a21636edf41b14974cb84c54febac3910366b578696"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.18/markdown-reader-1.34.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "68144ef017f9a02dc57ecfd32d72bc38e306709a783b77761a8523cbe2dcb148"
+      sha256 "0e266332d654e4b10442f033471652485ee2362e06bd6e4c90d1ae64baff27b4"
     end
     on_intel do
       url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.18/markdown-reader-1.34.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c06f7270c906594e4d1aeb2e97fb6039cf67a1540c070cfa4812ee960dbebe60"
+      sha256 "80a79a457a85625316cbfa8ef6ea58155899f87dcdb757e3716c06666ea0cf04"
     end
   end
 
