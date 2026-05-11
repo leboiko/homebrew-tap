@@ -7,28 +7,28 @@
 class MarkdownReader < Formula
   desc "Terminal-based markdown viewer with mermaid rendering, syntax highlighting, and live reload"
   homepage "https://github.com/leboiko/markdown-reader"
-  version "1.34.67"
+  version "1.34.68"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.67/markdown-reader-1.34.67-aarch64-apple-darwin.tar.gz"
-      sha256 "61e86a07935487dde0e29b487c015f9c848884927e16e99fb40565efc205b486"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.68/markdown-reader-1.34.68-aarch64-apple-darwin.tar.gz"
+      sha256 "09384ed5480af597d122779f3a49bef37e6539b2949e52c48d910612be51afd0"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.67/markdown-reader-1.34.67-x86_64-apple-darwin.tar.gz"
-      sha256 "2bdade0e429ccd4f7ec8a05494284552f007fb0d75bd024f82d8f5e14a4b6db9"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.68/markdown-reader-1.34.68-x86_64-apple-darwin.tar.gz"
+      sha256 "93ebb9e969a7832b626aa649de899d84f2499dcc7f24d8e1bb00aa972d22ca37"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.67/markdown-reader-1.34.67-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2faed9a42adeed5070ebe9ea3e8fc52c92552278e26671d9041736ee1f4cfc15"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.68/markdown-reader-1.34.68-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "14c6e93a7bea34c5f74f37e6571b507ec2b70966b6dc3e585c7466a0a965a68b"
     end
     on_intel do
-      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.67/markdown-reader-1.34.67-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "551d50855598b185961994882b02700ce5cecebecc2546dbd99714fe65cbdbb3"
+      url "https://github.com/leboiko/markdown-reader/releases/download/v1.34.68/markdown-reader-1.34.68-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7105eb27bb45edf38f721d57bb8cab99c37863a3f3137c649272fe8227f3143a"
     end
   end
 
